@@ -1,0 +1,41 @@
+.commodity-banner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 8.25rem;
+
+    ul.pic{
+        display: flex;
+        height: 100%;
+
+        li{
+            flex-shrinK: 0;
+            width: 100vw;
+            height: 100%;
+
+            .img{
+                height: 100%;
+            }
+        }
+    }
+
+    .swiper-pagination{
+        position: absolute;
+        left: 0;
+        bottom: 0.24rem;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+        span{
+            width: 0.16rem;
+            height: 0.16rem;
+            margin: 0 0.1rem;
+            background-color: rgba(0, 0, 0, 0.4);
+            border-radius: 50%;
+        }
+        span.swiper-pagination-bullet-active{
+            background-color: #fff;
+        }
+    }
+}

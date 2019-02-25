@@ -1,0 +1,84 @@
+.commodity-tabBar{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 98;
+    padding: 0 0.16rem 0.16rem;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 1.04rem;
+        border: 1px solid #e5e5e5;
+        border-radius: 0.16rem;
+        background-color: #fff;
+        box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px rgba(0,0,0,.14), 0 1px 10px rgba(0,0,0,.12);
+
+        .tab{
+            display: flex;
+            font-size: 0.24rem;
+
+            > div{
+                margin-left: 0.55rem;
+
+                a{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    color: #999;
+
+                    i{
+                        display: block;
+                        width: 0.42rem;
+                        height: 0.42rem;
+                        margin-bottom: 0.04rem;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        background-size: contain;
+                    }
+                }
+                &.home a i{ background-image: url("../../../../static/icon/home.png"); }
+                &.cart{
+                    position: relative;
+
+                    a{
+                        i{ background-image: url("../../../../static/icon/cart.png"); }
+                        sup{
+                            position: absolute;
+                            top: .06rem;
+                            left: .4rem;
+                            box-sizing: border-box;
+                            min-width: .3rem;
+                            height: .3rem;
+                            padding: 0 .06rem;
+                            border-radius: .15rem;
+                            background-color: #ed4d41;
+                            color: #fff;
+                            font-size: .18rem;
+                            text-align: center;
+                            line-height: .3rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .addCart{
+            align-self: center;
+            justify-self: right;
+            width: 2.46rem;
+            height: 0.66rem;
+            margin-right: 0.36rem;
+            border-radius: 0.33rem;
+            background-color: #ff6700;
+            color: #fff;
+            font-size: 0.28rem;
+            text-align: center;
+            line-height: 0.66rem;
+        }
+    }
+}

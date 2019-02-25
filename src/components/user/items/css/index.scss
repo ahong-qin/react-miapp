@@ -1,0 +1,43 @@
+@import "../../css/index";
+
+ul.items{
+    margin-top: 0.2rem;
+    background-color: #fff;
+
+    li{
+        height: 1.1rem;
+
+        .aEle{
+            display: flex;
+            height: 100%;
+            padding-left: 0.34rem;
+
+            .icon{
+                width: 0.5rem;
+                height: 0.5rem;
+                padding-top: 0.3rem;
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .word{
+                position: relative;
+                display: flex;
+                align-items: center;
+                width: 6.82rem;
+                margin-left: 0.32rem;
+                font-size: 0.28rem;
+
+                &::after{
+                    @extend .arrowRight;
+                    content: "";
+                    position: absolute;
+                    right: 0.3rem;
+                }
+            }
+        }
+    }
+}

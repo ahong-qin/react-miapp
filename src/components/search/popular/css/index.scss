@@ -1,0 +1,26 @@
+.search-popular{
+    h5{
+        height: 0.82rem;
+        padding-left: 0.32rem;
+        font-size: 0.26rem;
+        font-weight: normal;
+        line-height: 0.82rem;
+    }
+
+    .keys{
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 0.22rem;
+
+            li{
+                margin: 0.2rem 0.1rem 0;
+                padding: 0.14rem 0.2rem;
+                background-color: rgb(249, 234, 234);
+                border: 0.02rem solid rgb(252, 160, 167);
+                color: rgb(72, 72, 72);
+                font-size: 0.25rem;
+            }
+        }
+    }
+}

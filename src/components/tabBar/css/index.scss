@@ -1,0 +1,77 @@
+.App-tabBar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    width: 7.5rem;
+    height: 1.04rem;
+    background-color: #fff;
+    box-shadow: 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+    font-size: 0.24rem;
+    text-align: center;
+
+    div{
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+
+        a{
+            color: #999;
+
+            i{
+                display: block;
+                width: 0.42rem;
+                height: 0.42rem;
+                margin: 0 auto 0.1rem;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: contain;
+            }
+        }
+        a.active{ color: #ff6700; }
+    }
+}
+
+.App-tabBar{
+    .tb-home{
+        a i{ background-image: url("../../../static/icon/home.png"); }
+        a.active i{ background-image: url("../../../static/icon/home-on.png"); }
+    }
+
+    .tb-category{
+        a i{ background-image: url("../../../static/icon/category.png"); }
+        a.active i{ background-image: url("../../../static/icon/category-on.png"); }
+    }
+
+    .tb-cart{
+        position: relative;
+
+        a{
+            i{ background-image: url("../../../static/icon/cart.png"); }
+            &.active i{ background-image: url("../../../static/icon/cart-on.png"); }
+
+            sup{
+                position: absolute;
+                top: .06rem;
+                left: 1rem;
+                box-sizing: border-box;
+                min-width: .3rem;
+                height: .3rem;
+                padding: 0 .06rem;
+                border-radius: .15rem;
+                background-color: #ed4d41;
+                color: #fff;
+                font-size: .18rem;
+                text-align: center;
+                line-height: .3rem;
+            }
+        }
+    }
+
+    .tb-user{
+        a i{ background-image: url("../../../static/icon/user.png"); }
+        a.active i{ background-image: url("../../../static/icon/user-on.png"); }
+    }
+}

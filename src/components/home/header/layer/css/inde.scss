@@ -1,0 +1,31 @@
+.home-hd .nav .layer{
+    .title{
+        padding: 0.3rem 0 0 0.26rem;
+        color: rgb(60, 60, 60);
+        font-size: 0.3rem;
+    }
+
+    .items{
+        margin-top: 0.3rem;
+        padding-left: 0.15rem;
+        font-size: 0.24rem;
+
+        span{
+            box-sizing: border-box;
+            display: inline-block;
+            width: 1.58rem;
+            height: 0.6rem;
+            margin: 0 0.11rem 0.24rem;
+            background-color: #fff;
+            border: 0.02rem solid #e5e5e5;
+            border-radius: 0.04rem;
+            text-align: center;
+            line-height: 0.54rem;
+            &.on{
+                background-color: #fde0d5;
+                border-color: #ff6700;
+                color: #ff6700;
+            }
+        }
+    }
+}

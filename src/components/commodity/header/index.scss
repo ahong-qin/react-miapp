@@ -1,0 +1,29 @@
+.commodity-hd{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1rem;
+
+    i{
+        display: block;
+        overflow: hidden;
+        width: 0.64rem;
+        height: 0.64rem;
+        border-radius: 50%;
+    }
+
+    .btn{
+        margin: auto 0.2rem;
+
+        &.goback i{
+            background: #626262 url("../../../static/icon/goback.png") no-repeat center center/60% 60%;
+        }
+        &.share i{
+            background: #626262 url("../../../static/icon/share.png") no-repeat center center/60% 60%;
+        }
+    }
+}

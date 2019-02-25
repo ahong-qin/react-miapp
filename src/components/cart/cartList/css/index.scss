@@ -1,0 +1,93 @@
+.App-cart{
+    .cart-list{
+        margin-top: 1rem;
+
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                height: 2.4rem;
+                border-bottom: 0.02rem solid #f6f6f6;
+
+                .choose{
+                    flex-shrink: 0;
+                    margin: 0 .1rem;
+
+                    i{
+                        display: block;
+                        width: .42rem;
+                        height: .42rem;
+                        background: url("../../../../static/icon/choose-unckecked.png") no-repeat center center/contain;
+                    }
+                    &.checked i{background-image: url("../../../../static/icon/choose-checked.png"); }
+                }
+
+                .productImg{
+                    flex-shrink: 0;
+                    width: 1.84rem;
+                    height: 1.84rem;
+                    border: .02rem solid #eee;
+                }
+
+                .productInfo{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 4.57rem;
+                    height: 1.88rem;
+                    margin-left: .2rem;
+
+                    .text{
+                        padding-right: 1rem;
+                        color: #666;
+                        font-size: .28rem;
+                    }
+                    .price{
+                        color: #999;
+                        font-size: .24rem;
+                    }
+                    .operation{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .count{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            width: 1.86rem;
+                            height: 0.64rem;
+                            border: 0.02rem solid #eee;
+
+                            .btn{
+                                i{
+                                    display: block;
+                                    width: 0.64rem;
+                                    height: 0.64rem;
+                                }
+
+                                &.minus i{ background: #fafafa url("../../../../static/icon/minus.png") no-repeat center center/50% 50%; }
+                                &.add i{ background: #f4f4f4 url("../../../../static/icon/add.png") no-repeat center center/50% 50%; }
+                                &.active i{ background-color: #f4f4f4; }
+                            }
+
+                            .num{
+                                color: #333;
+                                font-size: 0.32rem;
+                            }
+                        }
+                        .delete{
+                            i{
+                                display: block;
+                                width: .6rem;
+                                height: .6rem;
+                                background: url("../../../../static/icon/delete.png") no-repeat center center/contain;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

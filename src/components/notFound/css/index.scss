@@ -1,0 +1,30 @@
+.NotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    .container {
+        text-align: center;
+
+        img {
+            width: 4.85rem;
+            vertical-align: middle;
+        }
+
+        .sorry {
+            margin: 0.5rem 0;
+            font-size: 0.46rem;
+        }
+
+        .backhome {
+            font-size: 0.3rem;
+
+            a {
+                display: inline-block;
+                color: #0b72a4;
+            }
+        }
+    }
+}

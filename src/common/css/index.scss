@@ -1,0 +1,33 @@
+$rem: 100vw / 7.5;
+
+html{
+  font-family: 'Helvetica Neue', Tahoma, Arial, PingFangSC-Regular, 'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+          text-size-adjust: none;
+  -webkit-user-select: none;
+          user-select: none;
+  color: #333;
+  font-size: $rem;
+}
+
+body,p,h5{ margin: 0; }
+ul{ margin: 0; padding: 0; }
+li{ list-style: none; }
+a{ display: block; text-decoration: none; }
+img{ vertical-align: top; border: none; }
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.arrowRight{
+    width: 0.18rem;
+    height: 0.18rem;
+    border-top: 1px solid currentColor;
+    border-right: 1px solid currentColor;
+    transform: rotate(45deg);
+}

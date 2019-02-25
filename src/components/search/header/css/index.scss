@@ -1,0 +1,35 @@
+.search-hd{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 0.84rem;
+    background-color: #f2f2f2;
+
+    i{
+        display: block;
+        width: 0.52rem;
+        height: 0.52rem;
+    }
+    .back{
+        i{ background: url("../../../../static/icon/arrow-left.png") no-repeat center center/contain; }
+    }
+
+    .input{
+        input{
+            display: block;
+            box-sizing: border-box;
+            width: 5.52rem;
+            height: 0.52rem;
+            padding: 0 0.2rem;
+            border: 0.02rem solid #e5e5e5;
+            border-radius: 0.04rem;
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 0.32rem;
+            outline: none;
+        }
+    }
+
+    .btn{
+        i{ background: url("../../../../static/icon/search.png") no-repeat center center/contain; }
+    }
+}

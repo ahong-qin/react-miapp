@@ -1,0 +1,52 @@
+.home-goods{
+    .goods-spacing{
+        height: 0.18rem;
+        background-color: #f5f5f5;
+    }
+
+    .goods-cellPic{
+        height: 4.62rem;
+        a{ height: 100%; }
+    }
+
+    .goods-list{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            li{
+                width: 3.72rem;
+
+                .item-pic{
+                    height: 3.74rem;
+                }
+
+                .item-info{
+                    height: 1.54rem;
+                    padding: 0.2rem 0.27rem;
+
+                    .ellipsis{
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+
+                    .name{
+                        font-size: .28rem;
+                        color: rgba(0,0,0,.87);
+                    }
+                    .brief{
+                        margin-top: .06rem;
+                        font-size: .22rem;
+                        color: rgba(0,0,0,.54);
+                    }
+                    .price{
+                        font-size: .28rem;
+                        color: #ea625b;
+                    }
+                }
+            }
+        }
+    }
+}

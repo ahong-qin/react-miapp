@@ -1,0 +1,30 @@
+.user-hd{
+    width: 100%;
+    height: 1.66rem;
+    background: #f37d0f url("../img/bgi.png") repeat center center/contain;
+
+    .content{
+        display: flex;
+        align-items: center;
+        height: 1rem;
+        padding: 0.33rem 0.34rem;
+
+        .avatar{
+            box-sizing: border-box;
+            width: 1rem;
+            height: 100%;
+            border: 0.06rem solid hsla(0, 0%, 100%, 0.4);
+            border-radius: 50%;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        .login{
+            padding-left: 0.15rem;
+            color: #fff;
+            font-size: 0.26rem;
+        }
+    }
+}

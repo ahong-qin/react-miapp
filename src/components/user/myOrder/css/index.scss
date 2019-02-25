@@ -1,0 +1,20 @@
+@import "../../css/index";
+
+.user-myOrder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 0.82rem;
+    padding: 0 0.34rem;
+    background-color: #fff;
+    font-size: 0.28rem;
+
+    .all span{
+        margin-right: 0.02rem;
+    }
+    .all::after{
+        @extend .arrowRight;
+        content: "";
+        display: inline-block;
+    }
+}

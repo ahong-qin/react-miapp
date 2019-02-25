@@ -1,0 +1,30 @@
+.cart-emptyCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.24rem;
+    margin-top: 1rem;
+    background-color: #ebebeb;
+
+    .des{
+        height: 0.8rem;
+        padding-left: 0.8rem;
+        background: url("../../../../static/img/cart-empty.png") no-repeat left top/contain;
+        font-size: 0.24rem;
+        color: rgba(0, 0, 0, 0.27);
+        span{
+            margin-left: 0.18rem;
+            line-height: 0.8rem;
+        }
+    }
+
+    .tip{
+        a{
+            margin-left: 0.16rem;
+            padding: 0.12rem 0.25rem;
+            border: 0.02rem solid rgba(0, 0, 0, 0.15);
+            font-size: 0.24rem;
+            color: #333;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.cart-hd{
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    -webkit-transition: 100s;
+    transition: 100s;
+
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height: 1rem;
+        background-color: #f2f2f2;
+
+        .title{ font-size: 0.3rem; }
+
+        i{
+            display: block;
+            width: 0.57rem;
+            height: 0.57rem;
+            padding: 0 0.2rem;
+        }
+        .back{
+            i{ background: url("../../../../static/icon/arrow-left.png") no-repeat center center/contain; }
+        }
+        .btn{
+            i{ background: url("../../../../static/icon/search.png") no-repeat center center/contain; }
+        }
+    }
+}
